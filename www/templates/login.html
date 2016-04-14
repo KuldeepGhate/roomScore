@@ -1,0 +1,47 @@
+<ion-modal-view hide-nav-bar="true" style="background: url(../img/1.jpg) no-repeat center fixed;">
+    <div style="height:100%; width:100%; background-color: rgba(34, 63, 128, 0.7);"></div>
+    
+<!--
+rgba(29, 80, 128, 0.7)
+  <ion-header-bar>
+    
+    <div class="buttons">
+      <button class="button button-clear" ng-href="closeLogin()">Close</button>
+    </div>
+  </ion-header-bar>
+-->
+    <ion-content class="padding">
+        <h1 class="title titleLogin">RoomScore</h1>
+        <style>
+            input[type="text"], input[type="password"] {
+                color:white;
+            }
+            .pg1b {
+                width: 75%;
+                margin-left: 12.5%;
+            }
+        </style>
+        <form id="login-form" ng-submit="doLogin()">
+            <div>
+                <label class="item login-item item-input login-input">
+                <span class="input-label"><i class="ion-ios-people"></i></span>
+                <input class="inp" type="text" ng-model="data.username">
+                </label>
+                <label class="item login-item item-input login-input">
+                    <span class="input-label"><i class="ion-key"></i></span>
+                    <input class="inp" type="password" ng-model="data.password">
+                </label>
+                <label class="item login-item">
+                    <button class="pg1b button button-calm" type="submit" ng-href="login()">Get Started</button>
+                </label>
+                
+      </div>
+    </form>
+        <label class="item login-item soc-button soc-fb">
+                    <button class="pg1b button fb" type="button"><i class="ion-social-facebook"></i></button>
+                </label>
+                <label class="item login-item soc-button">
+                    <button class="button pg1b gp" type="button"><i class="ion-social-googleplus"></i></button>
+                </label>
+  </ion-content>
+</ion-modal-view>

@@ -1,0 +1,99 @@
+/* Empty. Add your own CSS if you like */
+body {
+    font-family: Roboto;
+}
+.titleLogin {
+    text-align: center;
+    color: white;
+    font-family: Timber;
+    font-size: 4em;
+    height: 45%;
+    padding-top: 10%;
+}
+
+.login-item {
+    background-color: transparent;
+    border: none;
+}
+form {
+    width: 100%;
+}
+i {
+    width: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.login-input {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.soc-button {   
+    bottom: 5px;
+    float: left;
+    width: 45%;
+    margin-left: 3%;
+}
+.fb {
+    background-color: #3D5A98;
+}
+.gp {
+    background-color: #DC4A38;
+}
+.item:nth-child(1), .item:nth-child(2) {
+    border-bottom: 1px solid white;
+}
+.sideMenuTitle {
+    height: 15%;
+}
+.back-assertive {
+    background-color:crimson;
+}
+.bar.bar-assertive {
+    border: none;
+}
+.scoreFinal {
+    color: white;
+    height: 80px;
+    line-height: 80px;
+}
+.item-complex .item-content {
+    padding: 26px 9px 26px 26px;
+}
+.notif {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.scroll {
+    height: 100%;
+}
+.overallScore {
+    min-height: 12%;
+}
+.overallScore h3 {
+    width: inherit;
+    text-align: center;
+    color:white;
+    padding-top: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.belowScore {
+    top: 40%;
+    position: absolute;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.addRoomButton {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    bottom: 4%;
+    right: 4%;
+}
